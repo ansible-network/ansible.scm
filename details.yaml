@@ -9,7 +9,7 @@ failed: false
 msg: 'Successfully retrieved repository: https://github.com/ansible-network/ansible.scm.git'
 name: ansible.scm
 output:
--   command: 'git -C /tmp/tmp67htnody -c ''http.extraheader=AUTHORIZATION: basic <TOKEN>''
+-   command: 'git -C /tmp/tmp8hiqvo3q -c ''http.extraheader=AUTHORIZATION: basic <TOKEN>''
         clone --depth=1 --progress --no-single-branch https://github.com/ansible-network/ansible.scm.git'
     return_code: 0
     stderr_lines:
@@ -232,6 +232,7 @@ output:
     - 'Receiving objects:  44% (43/96)'
     - 'Receiving objects:  45% (44/96)'
     - 'Receiving objects:  46% (45/96)'
+    - 'remote: Total 96 (delta 23), reused 66 (delta 10), pack-reused 0        '
     - 'Receiving objects:  47% (46/96)'
     - 'Receiving objects:  48% (47/96)'
     - 'Receiving objects:  50% (48/96)'
@@ -250,7 +251,6 @@ output:
     - 'Receiving objects:  63% (61/96)'
     - 'Receiving objects:  64% (62/96)'
     - 'Receiving objects:  65% (63/96)'
-    - 'remote: Total 96 (delta 23), reused 65 (delta 10), pack-reused 0        '
     - 'Receiving objects:  66% (64/96)'
     - 'Receiving objects:  67% (65/96)'
     - 'Receiving objects:  68% (66/96)'
@@ -284,7 +284,7 @@ output:
     - 'Receiving objects:  97% (94/96)'
     - 'Receiving objects:  98% (95/96)'
     - 'Receiving objects: 100% (96/96)'
-    - 'Receiving objects: 100% (96/96), 45.69 KiB | 1.30 MiB/s, done.'
+    - 'Receiving objects: 100% (96/96), 45.70 KiB | 3.52 MiB/s, done.'
     - 'Resolving deltas:   0% (0/23)'
     - 'Resolving deltas:   4% (1/23)'
     - 'Resolving deltas:   8% (2/23)'
@@ -311,7 +311,7 @@ output:
     - 'Resolving deltas: 100% (23/23)'
     - 'Resolving deltas: 100% (23/23), done.'
     stdout_lines: []
--   command: git -C /tmp/tmp67htnody/ansible.scm branch -a
+-   command: git -C /tmp/tmp8hiqvo3q/ansible.scm branch -a
     return_code: 0
     stderr_lines: []
     stdout_lines:
@@ -319,10 +319,10 @@ output:
     - '  remotes/origin/HEAD -> origin/main'
     - '  remotes/origin/integration_tests'
     - '  remotes/origin/main'
--   command: git -C /tmp/tmp67htnody/ansible.scm switch integration_tests
+-   command: git -C /tmp/tmp8hiqvo3q/ansible.scm switch integration_tests
     return_code: 0
     stderr_lines:
     - Switched to a new branch 'integration_tests'
     stdout_lines:
     - branch 'integration_tests' set up to track 'origin/integration_tests'.
-path: /tmp/tmp67htnody/ansible.scm
+path: /tmp/tmp8hiqvo3q/ansible.scm
