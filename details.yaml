@@ -9,7 +9,7 @@ failed: false
 msg: 'Successfully retrieved repository: https://github.com/ansible-network/ansible.scm.git'
 name: ansible.scm
 output:
--   command: 'git -C /tmp/tmp1ma1e3lu -c ''http.extraheader=AUTHORIZATION: basic <TOKEN>''
+-   command: 'git -C /tmp/tmpebgbor53 -c ''http.extraheader=AUTHORIZATION: basic <TOKEN>''
         clone --depth=1 --progress --no-single-branch https://github.com/ansible-network/ansible.scm.git'
     return_code: 0
     stderr_lines:
@@ -268,9 +268,9 @@ output:
     - 'Receiving objects:  82% (79/96)'
     - 'Receiving objects:  83% (80/96)'
     - 'Receiving objects:  84% (81/96)'
+    - 'remote: Total 96 (delta 23), reused 65 (delta 10), pack-reused 0        '
     - 'Receiving objects:  85% (82/96)'
     - 'Receiving objects:  86% (83/96)'
-    - 'remote: Total 96 (delta 23), reused 66 (delta 10), pack-reused 0        '
     - 'Receiving objects:  87% (84/96)'
     - 'Receiving objects:  88% (85/96)'
     - 'Receiving objects:  89% (86/96)'
@@ -284,7 +284,7 @@ output:
     - 'Receiving objects:  97% (94/96)'
     - 'Receiving objects:  98% (95/96)'
     - 'Receiving objects: 100% (96/96)'
-    - 'Receiving objects: 100% (96/96), 45.70 KiB | 15.23 MiB/s, done.'
+    - 'Receiving objects: 100% (96/96), 45.69 KiB | 623.00 KiB/s, done.'
     - 'Resolving deltas:   0% (0/23)'
     - 'Resolving deltas:   4% (1/23)'
     - 'Resolving deltas:   8% (2/23)'
@@ -304,14 +304,13 @@ output:
     - 'Resolving deltas:  69% (16/23)'
     - 'Resolving deltas:  73% (17/23)'
     - 'Resolving deltas:  78% (18/23)'
-    - 'Resolving deltas:  82% (19/23)'
     - 'Resolving deltas:  86% (20/23)'
     - 'Resolving deltas:  91% (21/23)'
     - 'Resolving deltas:  95% (22/23)'
     - 'Resolving deltas: 100% (23/23)'
     - 'Resolving deltas: 100% (23/23), done.'
     stdout_lines: []
--   command: git -C /tmp/tmp1ma1e3lu/ansible.scm branch -a
+-   command: git -C /tmp/tmpebgbor53/ansible.scm branch -a
     return_code: 0
     stderr_lines: []
     stdout_lines:
@@ -319,10 +318,10 @@ output:
     - '  remotes/origin/HEAD -> origin/main'
     - '  remotes/origin/integration_tests'
     - '  remotes/origin/main'
--   command: git -C /tmp/tmp1ma1e3lu/ansible.scm switch integration_tests
+-   command: git -C /tmp/tmpebgbor53/ansible.scm switch integration_tests
     return_code: 0
     stderr_lines:
     - Switched to a new branch 'integration_tests'
     stdout_lines:
     - branch 'integration_tests' set up to track 'origin/integration_tests'.
-path: /tmp/tmp1ma1e3lu/ansible.scm
+path: /tmp/tmpebgbor53/ansible.scm
